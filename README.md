@@ -92,11 +92,8 @@ internal class Task
 - **الواجهات التفاعلية (Console Input/Output)** - مثل `Console.WriteLine()` و `Console.ReadLine()`.
 - **التحكم في البرنامج باستخدام `while (true)`** - لإنشاء قائمة تفاعلية مستمرة.
 
-## 🔗 Future Improvements
-- دعم تواريخ انتهاء المهام.
-- إمكانية تعيين أولوية لكل مهمة.
-- واجهة رسومية باستخدام WPF أو Windows Forms.
+
 
 ---
-**🔹 Developed by [Your Name]**
+**🔹 Developed by [ahmed mohamed abdelraof]**
 
