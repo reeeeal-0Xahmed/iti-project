@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 
 
-   internal class Task
+ namespace all_classes
+{
+    public class Task
     {
         public string Name { get; set; }
         public Task(string name)
@@ -16,3 +18,4 @@ using System.Threading.Tasks;
     }
 
 
+}

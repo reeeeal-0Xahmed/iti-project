@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    internal class TaskManager
+    namespace all_classes
+{
+    public class TaskManager
     {
         private List<Task> tasks = new List<Task>();//list for tasks
         private const string FilePath = "tasks.txt";
@@ -89,3 +91,5 @@ using System.Threading.Tasks;
     }
 
 
+
+}
