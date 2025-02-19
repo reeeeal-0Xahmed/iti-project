@@ -15,7 +15,7 @@ class Program
         // Add multiple handlers (Delegate Chains)
         manager.TaskUpdated += message => Console.WriteLine("Notification: " + message);
         manager.TaskUpdated += message => Console.WriteLine("Sending email: " + message);
-
+        #region program logic
         while (true)
         {
             Console.WriteLine("\nChoose an option:");
@@ -62,6 +62,8 @@ class Program
             {
                 Console.WriteLine("Error: " + ex.Message);
             }
+            #endregion
+
             //end of main function
         }
     }
